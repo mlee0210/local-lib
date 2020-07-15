@@ -67,3 +67,6 @@ def book_detail_view(request, primary_key):
 class AuthorListView(generic.ListView):
 	model = Author
 
+class AuthorDetailView(generic.DetailView):
+	model = Author
+
